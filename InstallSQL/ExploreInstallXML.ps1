@@ -7,6 +7,5 @@ $InstallSQLMasterLoaded = Import-CliXML  $installfilepath
 
 $RsToInstallRet=$InstallSQLMasterLoaded 
 
-#$RsToInstallRet | select Product,SQLVersion,SQLBinaries,CU
+$RsToInstallRet | select Product,SQLVersion,SQLBinaries,CU
 
-$RsToInstallRet |Sort-Object PID -Unique | select SQLBinaries,PID | Sort-Object SQLBinaries | Export-Clixml $SQLPID -Force

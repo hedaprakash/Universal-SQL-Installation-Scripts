@@ -512,6 +512,7 @@ function install-update {
     
     if ($result.Updates.Count -eq 0) {
          Write-Host "No updates to install"
+         return 1
     }
     else {
         $result.Updates | select Title
