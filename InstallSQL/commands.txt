@@ -1,0 +1,12 @@
+powershell \\W12R2HV\SQLSetup\DemoScript\InstallSQL\InstallSQL.ps1 
+<SQL Service startup account>  #sqlfeatures\svcSQLfeatures
+<SQL Service startup account Password> #qqqEqq1!  <<Minimum 8 digit toupgh password>>
+<SA Password> #SAtemp2014
+<Product Code> #AMD_2015
+<SQL Binary Top Location> #\\W12R2HV\SQLBinaries\
+
+powershell \\W12R2HV\SQLSetup\DemoScript\InstallSQL\InstallSQL.ps1 sqlfeatures\svcSQLfeatures Tester1! SAtemp2014 AD_V1.3 "sqlfeatures\SQLDBA"
+
+powershell \\W12R2HV\SQLSetup\DemoScript\InstallSQL\InstallSQL.ps1 sqlfeatures\svcSQLfeatures Tester1! SAtemp2014 AD_V3.0 "sqlfeatures\SQLDBA"
+
+powershell \\W12R2HV\SQLSetup\DemoScript\InstallSQL\InstallSQL.ps1 sqlfeatures\svcSQLfeatures Tester1! SAtemp2014 AD_V5.0 "sqlfeatures\SQLDBA"
