@@ -33,21 +33,22 @@ Supported configurations:
 
 
 Pre-Requisite: VM configuration
+
 	•W2012/R2 standard
 	
 	•E drive with 50GB (install sql here)
 	
-•F drive 20GB  (Filestream, optional to create if product required)
-
-•UAC disabled
-
-•Update patches
-
-•Added to domain
-
-•Grant PowerShell unrestricted and bypass execution rights
-
-•Disable automatic patch update
+	•F drive 20GB  (Filestream, optional to create if product required)
+	
+	•UAC disabled
+	
+	•Update patches
+	
+	•Added to domain
+	
+	•Grant PowerShell unrestricted and bypass execution rights
+	
+	•Disable automatic patch update
 
 
 
